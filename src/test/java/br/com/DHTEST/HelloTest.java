@@ -1,5 +1,6 @@
 package br.com.DHTEST;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class HelloTest {
@@ -10,13 +11,13 @@ public class HelloTest {
     public void estrutura() {
 
         // Cenário de teste
-
+        int numero1 = 10, numero2 = 20;
 
         // Execução do teste
-
+        int resultado = numero1 + numero2;
 
         // Verificação do teste
-
+        Assert.assertEquals(resultado,30);
     }
 
 }
